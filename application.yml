@@ -1,1 +1,4 @@
-test: jestem debilem
+eureka:
+  client:
+    service-url:
+      defaultZone: http://Eureka-Discovery-1:8761/eureka/ ,http://Eureka-Discovery-2:8762/eureka/
